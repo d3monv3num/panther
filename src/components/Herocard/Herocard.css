@@ -1,0 +1,59 @@
+:root {
+    --purple: #65688E;
+    --white: #ffffff;
+}
+
+.hero-card-container {
+    position: relative;
+    width: 25rem; /* 400px / 16px = 25rem */
+    height: 20.625rem; /* 330px / 16px = 20.625rem */
+    border-radius: 0.75rem; /* 12px / 16px = 0.75rem */
+    border: 1px solid rgba(79, 79, 79, 0.50);
+    background: #6D619A;
+    overflow: hidden;
+}
+
+.hero-card-background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust this value as needed */
+}
+.hero-card-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 13.875rem; /* 222px / 16px = 13.875rem */
+    height: 15.0625rem; /* 241px / 16px = 15.0625rem */
+    flex-shrink: 0;
+    z-index: 5;
+    
+}
+.hero-card-text{
+    margin: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-card-heading{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 2rem; /* 32px / 16px = 2rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}
+.hero-card-subheading{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1rem; /* 16px / 16px = 1rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}

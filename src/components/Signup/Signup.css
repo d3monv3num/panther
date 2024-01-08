@@ -1,0 +1,31 @@
+.signup-container{
+    /* background-color: blue; */
+    padding-top: 10rem;
+    display: flex;
+    flex-direction:column;
+    /* align-items: center; */
+    background-color: #FBFBFF;
+    height:100vh;
+}
+.signup-head-container{
+    display: flex;
+    justify-content: center;
+}
+.signup-component-heading{
+    display: flex;
+    color: #9C9C9E;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.625rem; /* 42px / 16px = 2.625rem */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}
+.signup-heading-highlight{
+    color: #65688E;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.625rem; /* 42px / 16px = 2.625rem */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-right: 1rem;
+}

@@ -1,0 +1,50 @@
+.faq-section{
+    padding: 5rem 0;
+}
+.faq-heading{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 2.625rem; /* 42px / 16px = 2.625rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+    padding-bottom: 2rem;
+}
+.more-faqs{
+    padding-top: 2rem;
+    color: #65688E;
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1.5rem; /* 24px / 16px = 1.5rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+    text-decoration-line: underline;
+}
+.more-faqs-link{
+    color: #65688E;
+}
+.more-faqs-button{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-faqs-button button{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    padding: 1rem 2.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 2.4375rem;
+    background: #65688E;
+    border:transparent;
+}

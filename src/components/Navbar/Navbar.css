@@ -1,0 +1,36 @@
+:root{
+    --purple: #65688E;
+    --white: #ffffff;
+}
+.navbar {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem;
+}
+.navbar-left img {
+    width: 11.8125rem; /* 189px / 16px = 11.8125rem */
+    height: 3.375rem;  /* 54px / 16px = 3.375rem */
+}
+.navbar-login{
+    display: flex;
+    padding: 1rem 3.5rem;
+    justify-content: center;
+    align-items: center;
+    border:transparent;
+    border-radius: 12px;
+    background: var(--purple);
+    color: var(--white);
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    position: absolute;
+    right: 1.5rem;
+}

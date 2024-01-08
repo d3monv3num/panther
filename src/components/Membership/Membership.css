@@ -1,0 +1,58 @@
+.membership-container{
+    background-color: #DFE2EF;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.membership-heading {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 2.625rem; /* 42px / 16px = 2.625rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+    padding-bottom:2rem;
+}
+.membership-text{
+    width: 40.875rem; /* 654px / 16px = 40.875rem */
+    height: 9.8125rem; /* 157px / 16px = 9.8125rem */
+    color: #6A6A6A;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1.5rem; /* 24px / 16px = 1.5rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}
+.membership-right{
+    padding-left: 15rem;
+}
+.membership-button button{
+    margin: 0.5rem 0 3rem;
+    background-color: transparent;
+    color: #65688E;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1rem; /* 16px / 16px = 1rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    padding: 1rem; /* 16px / 16px = 1rem */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; /* 8px / 16px = 0.5rem */
+    border-radius: 2rem; /* 32px / 16px = 2rem */
+    border: 1px solid #65688E;
+}
+.membership-help-text{
+    width: 37rem; /* 596px / 16px = 37.25rem */
+    height: 3.4375rem; /* 55px / 16px = 3.4375rem */
+    color: #000;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1rem; /* 16px / 16px = 1rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% / 100 = 1.5 */ 
+}
+

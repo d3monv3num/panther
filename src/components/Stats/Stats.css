@@ -1,0 +1,29 @@
+.stats-container{
+    /* display: none; */
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    /* background-color: blue; */
+}
+.stats-left{
+    margin-bottom: 2rem;
+}
+.stat-heading {
+    color: #65688E;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 2.125rem; /* 34px / 16px = 2.125rem */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}
+.stat-subheading{
+    color: #6A6A6A;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% / 100 = 1.5 */
+}
+

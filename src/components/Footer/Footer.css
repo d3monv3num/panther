@@ -1,0 +1,35 @@
+.upper-footer{
+    padding-top:2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:2rem;
+}
+.page-anchors{
+    display: flex;
+    list-style: none;
+}
+.page-anchors li{
+    margin: 0 2rem;
+    color: #494949;
+}
+.footer-anchor-links{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is a web-safe font, you may need to include a fallback font */
+    font-size: 1rem; /* 16px / 16px = 1rem */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+.socials{
+    padding-right: 3rem;
+    list-style: none;
+    display: flex;
+}
+.socials img{
+    margin: 0 0.5rem;
+}
+.lower-footer{
+    border-top: #494949 1rem;
+    /* background-color: black; */
+}
